@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */; };
+		A6AAE30526CE8FBF00253B80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */; };
+		A6AAE30726CE8FBF00253B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30626CE8FBF00253B80 /* ViewController.swift */; };
+		A6AAE30A26CE8FC000253B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AAE30826CE8FC000253B80 /* Main.storyboard */; };
+		A6AAE30C26CE8FC600253B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AAE30B26CE8FC600253B80 /* Assets.xcassets */; };
+		A6AAE30F26CE8FC600253B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AAE30D26CE8FC600253B80 /* LaunchScreen.storyboard */; };
+		A6AAE31A26CE8FC600253B80 /* HouseworkSharingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE31926CE8FC600253B80 /* HouseworkSharingAppTests.swift */; };
+		A6AAE32526CE8FC600253B80 /* HouseworkSharingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6AAE31626CE8FC600253B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6AAE2F726CE8FBF00253B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AAE2FE26CE8FBF00253B80;
+			remoteInfo = HouseworkSharingApp;
+		};
+		A6AAE32126CE8FC600253B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6AAE2F726CE8FBF00253B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AAE2FE26CE8FBF00253B80;
+			remoteInfo = HouseworkSharingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6AAE2FF26CE8FBF00253B80 /* HouseworkSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseworkSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6AAE30626CE8FBF00253B80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6AAE30926CE8FC000253B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6AAE30B26CE8FC600253B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6AAE30E26CE8FC600253B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6AAE31026CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AAE31526CE8FC600253B80 /* HouseworkSharingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseworkSharingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AAE31926CE8FC600253B80 /* HouseworkSharingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseworkSharingAppTests.swift; sourceTree = "<group>"; };
+		A6AAE31B26CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AAE32026CE8FC600253B80 /* HouseworkSharingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseworkSharingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseworkSharingAppUITests.swift; sourceTree = "<group>"; };
+		A6AAE32626CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6AAE2FC26CE8FBF00253B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AAE31226CE8FC600253B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AAE31D26CE8FC600253B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6AAE2F626CE8FBF00253B80 = {
+			isa = PBXGroup;
+			children = (
+				A6AAE30126CE8FBF00253B80 /* HouseworkSharingApp */,
+				A6AAE31826CE8FC600253B80 /* HouseworkSharingAppTests */,
+				A6AAE32326CE8FC600253B80 /* HouseworkSharingAppUITests */,
+				A6AAE30026CE8FBF00253B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6AAE30026CE8FBF00253B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6AAE2FF26CE8FBF00253B80 /* HouseworkSharingApp.app */,
+				A6AAE31526CE8FC600253B80 /* HouseworkSharingAppTests.xctest */,
+				A6AAE32026CE8FC600253B80 /* HouseworkSharingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6AAE30126CE8FBF00253B80 /* HouseworkSharingApp */ = {
+			isa = PBXGroup;
+			children = (
+				A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */,
+				A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */,
+				A6AAE30626CE8FBF00253B80 /* ViewController.swift */,
+				A6AAE30826CE8FC000253B80 /* Main.storyboard */,
+				A6AAE30B26CE8FC600253B80 /* Assets.xcassets */,
+				A6AAE30D26CE8FC600253B80 /* LaunchScreen.storyboard */,
+				A6AAE31026CE8FC600253B80 /* Info.plist */,
+			);
+			path = HouseworkSharingApp;
+			sourceTree = "<group>";
+		};
+		A6AAE31826CE8FC600253B80 /* HouseworkSharingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6AAE31926CE8FC600253B80 /* HouseworkSharingAppTests.swift */,
+				A6AAE31B26CE8FC600253B80 /* Info.plist */,
+			);
+			path = HouseworkSharingAppTests;
+			sourceTree = "<group>";
+		};
+		A6AAE32326CE8FC600253B80 /* HouseworkSharingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */,
+				A6AAE32626CE8FC600253B80 /* Info.plist */,
+			);
+			path = HouseworkSharingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6AAE2FE26CE8FBF00253B80 /* HouseworkSharingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AAE32926CE8FC600253B80 /* Build configuration list for PBXNativeTarget "HouseworkSharingApp" */;
+			buildPhases = (
+				A6AAE2FB26CE8FBF00253B80 /* Sources */,
+				A6AAE2FC26CE8FBF00253B80 /* Frameworks */,
+				A6AAE2FD26CE8FBF00253B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseworkSharingApp;
+			productName = HouseworkSharingApp;
+			productReference = A6AAE2FF26CE8FBF00253B80 /* HouseworkSharingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6AAE31426CE8FC600253B80 /* HouseworkSharingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AAE32C26CE8FC600253B80 /* Build configuration list for PBXNativeTarget "HouseworkSharingAppTests" */;
+			buildPhases = (
+				A6AAE31126CE8FC600253B80 /* Sources */,
+				A6AAE31226CE8FC600253B80 /* Frameworks */,
+				A6AAE31326CE8FC600253B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6AAE31726CE8FC600253B80 /* PBXTargetDependency */,
+			);
+			name = HouseworkSharingAppTests;
+			productName = HouseworkSharingAppTests;
+			productReference = A6AAE31526CE8FC600253B80 /* HouseworkSharingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6AAE31F26CE8FC600253B80 /* HouseworkSharingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AAE32F26CE8FC600253B80 /* Build configuration list for PBXNativeTarget "HouseworkSharingAppUITests" */;
+			buildPhases = (
+				A6AAE31C26CE8FC600253B80 /* Sources */,
+				A6AAE31D26CE8FC600253B80 /* Frameworks */,
+				A6AAE31E26CE8FC600253B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6AAE32226CE8FC600253B80 /* PBXTargetDependency */,
+			);
+			name = HouseworkSharingAppUITests;
+			productName = HouseworkSharingAppUITests;
+			productReference = A6AAE32026CE8FC600253B80 /* HouseworkSharingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6AAE2F726CE8FBF00253B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A6AAE2FE26CE8FBF00253B80 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A6AAE31426CE8FC600253B80 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A6AAE2FE26CE8FBF00253B80;
+					};
+					A6AAE31F26CE8FC600253B80 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A6AAE2FE26CE8FBF00253B80;
+					};
+				};
+			};
+			buildConfigurationList = A6AAE2FA26CE8FBF00253B80 /* Build configuration list for PBXProject "HouseworkSharingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6AAE2F626CE8FBF00253B80;
+			productRefGroup = A6AAE30026CE8FBF00253B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6AAE2FE26CE8FBF00253B80 /* HouseworkSharingApp */,
+				A6AAE31426CE8FC600253B80 /* HouseworkSharingAppTests */,
+				A6AAE31F26CE8FC600253B80 /* HouseworkSharingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6AAE2FD26CE8FBF00253B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AAE30F26CE8FC600253B80 /* LaunchScreen.storyboard in Resources */,
+				A6AAE30C26CE8FC600253B80 /* Assets.xcassets in Resources */,
+				A6AAE30A26CE8FC000253B80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AAE31326CE8FC600253B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AAE31E26CE8FC600253B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6AAE2FB26CE8FBF00253B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AAE30726CE8FBF00253B80 /* ViewController.swift in Sources */,
+				A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */,
+				A6AAE30526CE8FBF00253B80 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AAE31126CE8FC600253B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AAE31A26CE8FC600253B80 /* HouseworkSharingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AAE31C26CE8FC600253B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AAE32526CE8FC600253B80 /* HouseworkSharingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6AAE31726CE8FC600253B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6AAE2FE26CE8FBF00253B80 /* HouseworkSharingApp */;
+			targetProxy = A6AAE31626CE8FC600253B80 /* PBXContainerItemProxy */;
+		};
+		A6AAE32226CE8FC600253B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6AAE2FE26CE8FBF00253B80 /* HouseworkSharingApp */;
+			targetProxy = A6AAE32126CE8FC600253B80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6AAE30826CE8FC000253B80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6AAE30926CE8FC000253B80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6AAE30D26CE8FC600253B80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6AAE30E26CE8FC600253B80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6AAE32726CE8FC600253B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6AAE32826CE8FC600253B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6AAE32A26CE8FC600253B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HouseworkSharingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.daikiumehara3.HouseworkSharingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6AAE32B26CE8FC600253B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HouseworkSharingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.daikiumehara3.HouseworkSharingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6AAE32D26CE8FC600253B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HouseworkSharingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.daikiumehara3.HouseworkSharingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseworkSharingApp.app/HouseworkSharingApp";
+			};
+			name = Debug;
+		};
+		A6AAE32E26CE8FC600253B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HouseworkSharingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.daikiumehara3.HouseworkSharingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseworkSharingApp.app/HouseworkSharingApp";
+			};
+			name = Release;
+		};
+		A6AAE33026CE8FC600253B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HouseworkSharingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.daikiumehara3.HouseworkSharingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HouseworkSharingApp;
+			};
+			name = Debug;
+		};
+		A6AAE33126CE8FC600253B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HouseworkSharingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.daikiumehara3.HouseworkSharingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HouseworkSharingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6AAE2FA26CE8FBF00253B80 /* Build configuration list for PBXProject "HouseworkSharingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AAE32726CE8FC600253B80 /* Debug */,
+				A6AAE32826CE8FC600253B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AAE32926CE8FC600253B80 /* Build configuration list for PBXNativeTarget "HouseworkSharingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AAE32A26CE8FC600253B80 /* Debug */,
+				A6AAE32B26CE8FC600253B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AAE32C26CE8FC600253B80 /* Build configuration list for PBXNativeTarget "HouseworkSharingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AAE32D26CE8FC600253B80 /* Debug */,
+				A6AAE32E26CE8FC600253B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AAE32F26CE8FC600253B80 /* Build configuration list for PBXNativeTarget "HouseworkSharingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AAE33026CE8FC600253B80 /* Debug */,
+				A6AAE33126CE8FC600253B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6AAE2F726CE8FBF00253B80 /* Project object */;
+}
