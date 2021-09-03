@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7F4073D2EF97F60563B3B04C /* Pods_HouseworkSharingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40221AB168D5FAE9E239E9C0 /* Pods_HouseworkSharingAppTests.framework */; };
 		A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */; };
 		A6AAE30526CE8FBF00253B80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */; };
-		A6AAE30726CE8FBF00253B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30626CE8FBF00253B80 /* ViewController.swift */; };
-		A6AAE30A26CE8FC000253B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AAE30826CE8FC000253B80 /* Main.storyboard */; };
+		A6AAE30726CE8FBF00253B80 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30626CE8FBF00253B80 /* TabBarController.swift */; };
 		A6AAE30C26CE8FC600253B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AAE30B26CE8FC600253B80 /* Assets.xcassets */; };
 		A6AAE30F26CE8FC600253B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AAE30D26CE8FC600253B80 /* LaunchScreen.storyboard */; };
 		A6AAE31A26CE8FC600253B80 /* HouseworkSharingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE31926CE8FC600253B80 /* HouseworkSharingAppTests.swift */; };
 		A6AAE32526CE8FC600253B80 /* HouseworkSharingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */; };
+		BA1EE2F726E24BE400FB4777 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE2F626E24BE400FB4777 /* HomeViewController.swift */; };
+		BA1EE2F926E24C7600FB4777 /* PointChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE2F826E24C7500FB4777 /* PointChangeViewController.swift */; };
+		BA1EE2FC26E24CF200FB4777 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1EE2FB26E24CF200FB4777 /* Home.storyboard */; };
+		BA1EE2FE26E24D2500FB4777 /* PointChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */; };
+		BA1EE30026E24D5700FB4777 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE2FF26E24D5700FB4777 /* MyPageViewController.swift */; };
+		BA1EE30226E24D7800FB4777 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1EE30126E24D7800FB4777 /* MyPage.storyboard */; };
+		BA1EE30826E2555200FB4777 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE30726E2555200FB4777 /* ThemeColor.swift */; };
+		BA1EE30B26E255EB00FB4777 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE30A26E255EB00FB4777 /* UIColor+Hex.swift */; };
 		DF3CCA8EF98EE4CF60CCC7D1 /* Pods_HouseworkSharingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E72F3A7A83B7EA840FF026E /* Pods_HouseworkSharingApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +51,7 @@
 		A6AAE2FF26CE8FBF00253B80 /* HouseworkSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseworkSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6AAE30626CE8FBF00253B80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6AAE30926CE8FC000253B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6AAE30626CE8FBF00253B80 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = "../New Group/TabBarController.swift"; sourceTree = "<group>"; };
 		A6AAE30B26CE8FC600253B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6AAE30E26CE8FC600253B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6AAE31026CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +61,14 @@
 		A6AAE32026CE8FC600253B80 /* HouseworkSharingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseworkSharingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseworkSharingAppUITests.swift; sourceTree = "<group>"; };
 		A6AAE32626CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1EE2F626E24BE400FB4777 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BA1EE2F826E24C7500FB4777 /* PointChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChangeViewController.swift; sourceTree = "<group>"; };
+		BA1EE2FB26E24CF200FB4777 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Home.storyboard; path = "../New Group/Home.storyboard"; sourceTree = "<group>"; };
+		BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = PointChange.storyboard; path = "../New Group/PointChange.storyboard"; sourceTree = "<group>"; };
+		BA1EE2FF26E24D5700FB4777 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		BA1EE30126E24D7800FB4777 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MyPage.storyboard; path = "../New Group1/MyPage.storyboard"; sourceTree = "<group>"; };
+		BA1EE30726E2555200FB4777 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		BA1EE30A26E255EB00FB4777 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		DBFB4F77F8730B8996ABA29E /* Pods-HouseworkSharingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingApp.debug.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingApp/Pods-HouseworkSharingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ECCEE3D79E76AE952C632E3E /* Pods-HouseworkSharingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingApp.release.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingApp/Pods-HouseworkSharingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +108,6 @@
 				78A3EDFCECC974D25BDBCC05 /* Pods-HouseworkSharingAppTests.debug.xcconfig */,
 				2AD5FB0510168F0CB4ADCF38 /* Pods-HouseworkSharingAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,13 +145,14 @@
 		A6AAE30126CE8FBF00253B80 /* HouseworkSharingApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA1EE30626E2554400FB4777 /* Model */,
+				BA1EE2F426E24A9000FB4777 /* ViewController */,
 				A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */,
 				A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */,
-				A6AAE30626CE8FBF00253B80 /* ViewController.swift */,
-				A6AAE30826CE8FC000253B80 /* Main.storyboard */,
 				A6AAE30B26CE8FC600253B80 /* Assets.xcassets */,
 				A6AAE30D26CE8FC600253B80 /* LaunchScreen.storyboard */,
 				A6AAE31026CE8FC600253B80 /* Info.plist */,
+				BA1EE30926E255BC00FB4777 /* Extension */,
 			);
 			path = HouseworkSharingApp;
 			sourceTree = "<group>";
@@ -159,6 +173,77 @@
 				A6AAE32626CE8FC600253B80 /* Info.plist */,
 			);
 			path = HouseworkSharingAppUITests;
+			sourceTree = "<group>";
+		};
+		BA1EE2F426E24A9000FB4777 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6AAE30626CE8FBF00253B80 /* TabBarController.swift */,
+				BA1EE2F626E24BE400FB4777 /* HomeViewController.swift */,
+				BA1EE2F826E24C7500FB4777 /* PointChangeViewController.swift */,
+				BA1EE2FF26E24D5700FB4777 /* MyPageViewController.swift */,
+				BA1EE2F526E24AA000FB4777 /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BA1EE2F526E24AA000FB4777 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA1EE2FA26E24CE300FB4777 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA1EE2FA26E24CE300FB4777 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BA1EE30326E24E1400FB4777 /* Home */,
+				BA1EE30426E24E2000FB4777 /* PointChange */,
+				BA1EE30526E24E4100FB4777 /* MyPage */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BA1EE30326E24E1400FB4777 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA1EE2FB26E24CF200FB4777 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA1EE30426E24E2000FB4777 /* PointChange */ = {
+			isa = PBXGroup;
+			children = (
+				BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */,
+			);
+			name = PointChange;
+			path = Home/PointChange;
+			sourceTree = "<group>";
+		};
+		BA1EE30526E24E4100FB4777 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				BA1EE30126E24D7800FB4777 /* MyPage.storyboard */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		BA1EE30626E2554400FB4777 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA1EE30726E2555200FB4777 /* ThemeColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA1EE30926E255BC00FB4777 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA1EE30A26E255EB00FB4777 /* UIColor+Hex.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +352,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1EE2FC26E24CF200FB4777 /* Home.storyboard in Resources */,
+				BA1EE30226E24D7800FB4777 /* MyPage.storyboard in Resources */,
+				BA1EE2FE26E24D2500FB4777 /* PointChange.storyboard in Resources */,
 				A6AAE30F26CE8FC600253B80 /* LaunchScreen.storyboard in Resources */,
 				A6AAE30C26CE8FC600253B80 /* Assets.xcassets in Resources */,
-				A6AAE30A26CE8FC000253B80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,9 +445,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6AAE30726CE8FBF00253B80 /* ViewController.swift in Sources */,
+				A6AAE30726CE8FBF00253B80 /* TabBarController.swift in Sources */,
+				BA1EE30B26E255EB00FB4777 /* UIColor+Hex.swift in Sources */,
+				BA1EE30826E2555200FB4777 /* ThemeColor.swift in Sources */,
+				BA1EE30026E24D5700FB4777 /* MyPageViewController.swift in Sources */,
 				A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */,
 				A6AAE30526CE8FBF00253B80 /* SceneDelegate.swift in Sources */,
+				BA1EE2F926E24C7600FB4777 /* PointChangeViewController.swift in Sources */,
+				BA1EE2F726E24BE400FB4777 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,14 +488,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6AAE30826CE8FC000253B80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6AAE30926CE8FC000253B80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6AAE30D26CE8FC600253B80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -466,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -521,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -539,6 +623,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HouseworkSharingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +631,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.daikiumehara3.HouseworkSharingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -558,6 +643,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HouseworkSharingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,7 +651,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.daikiumehara3.HouseworkSharingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
