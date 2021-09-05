@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F4073D2EF97F60563B3B04C /* Pods_HouseworkSharingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40221AB168D5FAE9E239E9C0 /* Pods_HouseworkSharingAppTests.framework */; };
 		A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */; };
 		A6AAE30526CE8FBF00253B80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */; };
 		A6AAE30726CE8FBF00253B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30626CE8FBF00253B80 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		A6AAE30F26CE8FC600253B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AAE30D26CE8FC600253B80 /* LaunchScreen.storyboard */; };
 		A6AAE31A26CE8FC600253B80 /* HouseworkSharingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE31926CE8FC600253B80 /* HouseworkSharingAppTests.swift */; };
 		A6AAE32526CE8FC600253B80 /* HouseworkSharingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */; };
+		DF3CCA8EF98EE4CF60CCC7D1 /* Pods_HouseworkSharingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E72F3A7A83B7EA840FF026E /* Pods_HouseworkSharingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E72F3A7A83B7EA840FF026E /* Pods_HouseworkSharingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseworkSharingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD5FB0510168F0CB4ADCF38 /* Pods-HouseworkSharingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingAppTests.release.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingAppTests/Pods-HouseworkSharingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		40221AB168D5FAE9E239E9C0 /* Pods_HouseworkSharingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseworkSharingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A3EDFCECC974D25BDBCC05 /* Pods-HouseworkSharingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingAppTests/Pods-HouseworkSharingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6AAE2FF26CE8FBF00253B80 /* HouseworkSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseworkSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		A6AAE32026CE8FC600253B80 /* HouseworkSharingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseworkSharingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseworkSharingAppUITests.swift; sourceTree = "<group>"; };
 		A6AAE32626CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFB4F77F8730B8996ABA29E /* Pods-HouseworkSharingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingApp.debug.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingApp/Pods-HouseworkSharingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ECCEE3D79E76AE952C632E3E /* Pods-HouseworkSharingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingApp.release.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingApp/Pods-HouseworkSharingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3CCA8EF98EE4CF60CCC7D1 /* Pods_HouseworkSharingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4073D2EF97F60563B3B04C /* Pods_HouseworkSharingAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6633A92F7D9D636C918AB3EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBFB4F77F8730B8996ABA29E /* Pods-HouseworkSharingApp.debug.xcconfig */,
+				ECCEE3D79E76AE952C632E3E /* Pods-HouseworkSharingApp.release.xcconfig */,
+				78A3EDFCECC974D25BDBCC05 /* Pods-HouseworkSharingAppTests.debug.xcconfig */,
+				2AD5FB0510168F0CB4ADCF38 /* Pods-HouseworkSharingAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8AD9BFBF146BAD6A0977D3E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E72F3A7A83B7EA840FF026E /* Pods_HouseworkSharingApp.framework */,
+				40221AB168D5FAE9E239E9C0 /* Pods_HouseworkSharingAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6AAE2F626CE8FBF00253B80 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				A6AAE31826CE8FC600253B80 /* HouseworkSharingAppTests */,
 				A6AAE32326CE8FC600253B80 /* HouseworkSharingAppUITests */,
 				A6AAE30026CE8FBF00253B80 /* Products */,
+				6633A92F7D9D636C918AB3EA /* Pods */,
+				8AD9BFBF146BAD6A0977D3E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6AAE32926CE8FC600253B80 /* Build configuration list for PBXNativeTarget "HouseworkSharingApp" */;
 			buildPhases = (
+				E199B3856040E78565EA73B6 /* [CP] Check Pods Manifest.lock */,
 				A6AAE2FB26CE8FBF00253B80 /* Sources */,
 				A6AAE2FC26CE8FBF00253B80 /* Frameworks */,
 				A6AAE2FD26CE8FBF00253B80 /* Resources */,
+				48E6746901EE1960CCAA96C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6AAE32C26CE8FC600253B80 /* Build configuration list for PBXNativeTarget "HouseworkSharingAppTests" */;
 			buildPhases = (
+				67C56F8B5E449E1351D823CA /* [CP] Check Pods Manifest.lock */,
 				A6AAE31126CE8FC600253B80 /* Sources */,
 				A6AAE31226CE8FC600253B80 /* Frameworks */,
 				A6AAE31326CE8FC600253B80 /* Resources */,
@@ -252,6 +288,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E6746901EE1960CCAA96C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HouseworkSharingApp/Pods-HouseworkSharingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HouseworkSharingApp/Pods-HouseworkSharingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HouseworkSharingApp/Pods-HouseworkSharingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C56F8B5E449E1351D823CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HouseworkSharingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E199B3856040E78565EA73B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HouseworkSharingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6AAE2FB26CE8FBF00253B80 /* Sources */ = {
@@ -433,6 +533,7 @@
 		};
 		A6AAE32A26CE8FC600253B80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBFB4F77F8730B8996ABA29E /* Pods-HouseworkSharingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +552,7 @@
 		};
 		A6AAE32B26CE8FC600253B80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCEE3D79E76AE952C632E3E /* Pods-HouseworkSharingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +571,7 @@
 		};
 		A6AAE32D26CE8FC600253B80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A3EDFCECC974D25BDBCC05 /* Pods-HouseworkSharingAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +593,7 @@
 		};
 		A6AAE32E26CE8FC600253B80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD5FB0510168F0CB4ADCF38 /* Pods-HouseworkSharingAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
