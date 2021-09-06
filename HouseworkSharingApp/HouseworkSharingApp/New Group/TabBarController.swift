@@ -19,15 +19,14 @@ final class TabBarController: UITabBarController {
 }
 
 private extension TabBarController {
-
-    private func setupTabBar() {
+    func setupTabBar() {
         UITabBar.appearance().tintColor = ThemeColor.mainColor
         UITabBar.appearance().unselectedItemTintColor = UIColor.gray
         UITabBar.appearance().barTintColor = .white
         UITabBar.appearance().isTranslucent = false
     }
 
-    private func setupTab() {
+    func setupTab() {
         let homeVC = HomeViewController.instantiate()
         let homeImage = UIImage(systemName: "house.fill",
                                 withConfiguration: UIImage.SymbolConfiguration(pointSize: 12))
