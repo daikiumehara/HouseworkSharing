@@ -51,7 +51,7 @@
 		A6AAE2FF26CE8FBF00253B80 /* HouseworkSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseworkSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6AAE30626CE8FBF00253B80 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = "../New Group/TabBarController.swift"; sourceTree = "<group>"; };
+		A6AAE30626CE8FBF00253B80 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A6AAE30B26CE8FC600253B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6AAE30E26CE8FC600253B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6AAE31026CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,10 +63,10 @@
 		A6AAE32626CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1EE2F626E24BE400FB4777 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BA1EE2F826E24C7500FB4777 /* PointChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChangeViewController.swift; sourceTree = "<group>"; };
-		BA1EE2FB26E24CF200FB4777 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Home.storyboard; path = "../New Group/Home.storyboard"; sourceTree = "<group>"; };
-		BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = PointChange.storyboard; path = "../New Group/PointChange.storyboard"; sourceTree = "<group>"; };
+		BA1EE2FB26E24CF200FB4777 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PointChange.storyboard; sourceTree = "<group>"; };
 		BA1EE2FF26E24D5700FB4777 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
-		BA1EE30126E24D7800FB4777 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MyPage.storyboard; path = "../New Group1/MyPage.storyboard"; sourceTree = "<group>"; };
+		BA1EE30126E24D7800FB4777 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
 		BA1EE30726E2555200FB4777 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		BA1EE30A26E255EB00FB4777 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		DBFB4F77F8730B8996ABA29E /* Pods-HouseworkSharingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingApp.debug.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingApp/Pods-HouseworkSharingApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -218,8 +218,7 @@
 			children = (
 				BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */,
 			);
-			name = PointChange;
-			path = Home/PointChange;
+			path = PointChange;
 			sourceTree = "<group>";
 		};
 		BA1EE30526E24E4100FB4777 /* MyPage */ = {
