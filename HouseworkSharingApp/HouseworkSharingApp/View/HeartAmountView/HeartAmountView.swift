@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HeartAmountView: UIView {
+final class HeartAmountView: UIView {
     @IBOutlet private var heartImageView: UIImageView!
     @IBOutlet private var amountLabel: UILabel!
     override init(frame: CGRect) {
