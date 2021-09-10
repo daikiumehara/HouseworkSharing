@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7F4073D2EF97F60563B3B04C /* Pods_HouseworkSharingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40221AB168D5FAE9E239E9C0 /* Pods_HouseworkSharingAppTests.framework */; };
+		A692C2C826EA6395004F454C /* CoinAmountView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A692C2C726EA6395004F454C /* CoinAmountView.xib */; };
+		A692C2CA26EA63A4004F454C /* CoinAmountView.swift in Resources */ = {isa = PBXBuildFile; fileRef = A692C2C926EA63A4004F454C /* CoinAmountView.swift */; };
 		A692C2FD26EB875F004F454C /* HeartAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692C2FC26EB875F004F454C /* HeartAmountView.swift */; };
 		A692C2FF26EB87EE004F454C /* HeartAmountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A692C2FE26EB87EE004F454C /* HeartAmountView.xib */; };
 		A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */; };
@@ -50,6 +52,8 @@
 		2AD5FB0510168F0CB4ADCF38 /* Pods-HouseworkSharingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingAppTests.release.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingAppTests/Pods-HouseworkSharingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		40221AB168D5FAE9E239E9C0 /* Pods_HouseworkSharingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseworkSharingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A3EDFCECC974D25BDBCC05 /* Pods-HouseworkSharingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseworkSharingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HouseworkSharingAppTests/Pods-HouseworkSharingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A692C2C726EA6395004F454C /* CoinAmountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinAmountView.xib; sourceTree = "<group>"; };
+		A692C2C926EA63A4004F454C /* CoinAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAmountView.swift; sourceTree = "<group>"; };
 		A692C2FC26EB875F004F454C /* HeartAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAmountView.swift; sourceTree = "<group>"; };
 		A692C2FE26EB87EE004F454C /* HeartAmountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeartAmountView.xib; sourceTree = "<group>"; };
 		A6AAE2FF26CE8FBF00253B80 /* HouseworkSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseworkSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,13 +128,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A692C2F726EB86BD004F454C /* View */ = {
+		A692C2C526EA6363004F454C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A692C2FB26EB872F004F454C /* HeartAmountView */,
+				A692C2C626EA6367004F454C /* CoinAmountView */,
+        A692C2FB26EB872F004F454C /* HeartAmountView */,
 			);
 			path = View;
 			sourceTree = "<group>";
+		};
+		A692C2C626EA6367004F454C /* CoinAmountView */ = {
+			isa = PBXGroup;
+			children = (
+				A692C2C726EA6395004F454C /* CoinAmountView.xib */,
+				A692C2C926EA63A4004F454C /* CoinAmountView.swift */,
+			);
+			path = CoinAmountView;
+      sourceTree = "<group>";
 		};
 		A692C2FB26EB872F004F454C /* HeartAmountView */ = {
 			isa = PBXGroup;
@@ -166,6 +180,7 @@
 		A6AAE30126CE8FBF00253B80 /* HouseworkSharingApp */ = {
 			isa = PBXGroup;
 			children = (
+				A692C2C526EA6363004F454C /* View */,
 				A692C2F726EB86BD004F454C /* View */,
 				BA1EE30626E2554400FB4777 /* Model */,
 				BA1EE2F426E24A9000FB4777 /* ViewController */,
@@ -379,6 +394,7 @@
 				A6AAE30F26CE8FC600253B80 /* LaunchScreen.storyboard in Resources */,
 				A692C2FF26EB87EE004F454C /* HeartAmountView.xib in Resources */,
 				A6AAE30C26CE8FC600253B80 /* Assets.xcassets in Resources */,
+				A692C2CA26EA63A4004F454C /* CoinAmountView.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +489,7 @@
 				BA1EE30026E24D5700FB4777 /* MyPageViewController.swift in Sources */,
 				A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */,
 				A6AAE30526CE8FBF00253B80 /* SceneDelegate.swift in Sources */,
+				A692C2C826EA6395004F454C /* CoinAmountView.xib in Sources */,
 				BA1EE2F926E24C7600FB4777 /* PointChangeViewController.swift in Sources */,
 				A692C2FD26EB875F004F454C /* HeartAmountView.swift in Sources */,
 				BA1EE2F726E24BE400FB4777 /* HomeViewController.swift in Sources */,
