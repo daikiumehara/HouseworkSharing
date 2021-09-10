@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CoinAmountView: UIView {
+final class CoinAmountView: UIView {
     @IBOutlet private var coinImageView: UIImageView!
     @IBOutlet private var amountLabel: UILabel!
     override init(frame: CGRect) {
