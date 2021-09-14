@@ -36,14 +36,14 @@ private extension TabBarController {
                                          image: homeImage,
                                          selectedImage: homeImageSelected)
         let firstVC = UINavigationController(rootViewController: homeVC)
-        let pointChangeVC = PointChangeViewController.instantiate()
-        let pointChangeImage = UIImage(systemName: "bitcoinsign.circle.fill",
+        let coinChangeVC = CoinChangeViewController.instantiate()
+        let coinChangeImage = UIImage(systemName: "bitcoinsign.circle.fill",
                                 withConfiguration: UIImage.SymbolConfiguration(pointSize: 12))
-        let pointChangeImageSelected = UIImage(systemName: "bitcoinsign.circle.fill",
+        let coinChangeImageSelected = UIImage(systemName: "bitcoinsign.circle.fill",
                                         withConfiguration: UIImage.SymbolConfiguration(pointSize: 22))
-        pointChangeVC.tabBarItem = UITabBarItem(title: "ポイント交換",
-                                                image: pointChangeImage,
-                                                selectedImage: pointChangeImageSelected)
+        coinChangeVC.tabBarItem = UITabBarItem(title: "ポイント交換",
+                                                image: coinChangeImage,
+                                                selectedImage: coinChangeImageSelected)
         let myPageVC = MyPageViewController.instantiate()
         let myPageImage = UIImage(systemName: "person.fill",
                                   withConfiguration: UIImage.SymbolConfiguration(pointSize: 12))
@@ -53,7 +53,7 @@ private extension TabBarController {
                                            image: myPageImage,
                                            selectedImage: myPageImageSelected)
         let thirdVC = UINavigationController(rootViewController: myPageVC)
-        self.viewControllers = [firstVC, pointChangeVC, thirdVC]
+        self.viewControllers = [firstVC, coinChangeVC, thirdVC]
     }
 }
 

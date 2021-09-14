@@ -20,9 +20,9 @@
 		A6AAE31A26CE8FC600253B80 /* HouseworkSharingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE31926CE8FC600253B80 /* HouseworkSharingAppTests.swift */; };
 		A6AAE32526CE8FC600253B80 /* HouseworkSharingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */; };
 		BA1EE2F726E24BE400FB4777 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE2F626E24BE400FB4777 /* HomeViewController.swift */; };
-		BA1EE2F926E24C7600FB4777 /* PointChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE2F826E24C7500FB4777 /* PointChangeViewController.swift */; };
+		BA1EE2F926E24C7600FB4777 /* CoinChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE2F826E24C7500FB4777 /* CoinChangeViewController.swift */; };
 		BA1EE2FC26E24CF200FB4777 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1EE2FB26E24CF200FB4777 /* Home.storyboard */; };
-		BA1EE2FE26E24D2500FB4777 /* PointChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */; };
+		BA1EE2FE26E24D2500FB4777 /* CoinChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1EE2FD26E24D2500FB4777 /* CoinChange.storyboard */; };
 		BA1EE30026E24D5700FB4777 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE2FF26E24D5700FB4777 /* MyPageViewController.swift */; };
 		BA1EE30226E24D7800FB4777 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1EE30126E24D7800FB4777 /* MyPage.storyboard */; };
 		BA1EE30826E2555200FB4777 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE30726E2555200FB4777 /* ThemeColor.swift */; };
@@ -70,9 +70,9 @@
 		A6AAE32426CE8FC600253B80 /* HouseworkSharingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseworkSharingAppUITests.swift; sourceTree = "<group>"; };
 		A6AAE32626CE8FC600253B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1EE2F626E24BE400FB4777 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		BA1EE2F826E24C7500FB4777 /* PointChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChangeViewController.swift; sourceTree = "<group>"; };
+		BA1EE2F826E24C7500FB4777 /* CoinChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChangeViewController.swift; sourceTree = "<group>"; };
 		BA1EE2FB26E24CF200FB4777 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PointChange.storyboard; sourceTree = "<group>"; };
+		BA1EE2FD26E24D2500FB4777 /* CoinChange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CoinChange.storyboard; sourceTree = "<group>"; };
 		BA1EE2FF26E24D5700FB4777 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		BA1EE30126E24D7800FB4777 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
 		BA1EE30726E2555200FB4777 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				A692C2C626EA6367004F454C /* CoinAmountView */,
-        A692C2FB26EB872F004F454C /* HeartAmountView */,
+				A692C2FB26EB872F004F454C /* HeartAmountView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 				A692C2C926EA63A4004F454C /* CoinAmountView.swift */,
 			);
 			path = CoinAmountView;
-      sourceTree = "<group>";
+			sourceTree = "<group>";
 		};
 		A692C2FB26EB872F004F454C /* HeartAmountView */ = {
 			isa = PBXGroup;
@@ -181,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				A692C2C526EA6363004F454C /* View */,
-				A692C2F726EB86BD004F454C /* View */,
 				BA1EE30626E2554400FB4777 /* Model */,
 				BA1EE2F426E24A9000FB4777 /* ViewController */,
 				A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */,
@@ -217,7 +216,7 @@
 			children = (
 				A6AAE30626CE8FBF00253B80 /* TabBarController.swift */,
 				BA1EE2F626E24BE400FB4777 /* HomeViewController.swift */,
-				BA1EE2F826E24C7500FB4777 /* PointChangeViewController.swift */,
+				BA1EE2F826E24C7500FB4777 /* CoinChangeViewController.swift */,
 				BA1EE2FF26E24D5700FB4777 /* MyPageViewController.swift */,
 				BA1EE2F526E24AA000FB4777 /* View */,
 			);
@@ -236,7 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				BA1EE30326E24E1400FB4777 /* Home */,
-				BA1EE30426E24E2000FB4777 /* PointChange */,
+				BA1EE30426E24E2000FB4777 /* CoinChange */,
 				BA1EE30526E24E4100FB4777 /* MyPage */,
 			);
 			path = Storyboard;
@@ -250,12 +249,12 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		BA1EE30426E24E2000FB4777 /* PointChange */ = {
+		BA1EE30426E24E2000FB4777 /* CoinChange */ = {
 			isa = PBXGroup;
 			children = (
-				BA1EE2FD26E24D2500FB4777 /* PointChange.storyboard */,
+				BA1EE2FD26E24D2500FB4777 /* CoinChange.storyboard */,
 			);
-			path = PointChange;
+			path = CoinChange;
 			sourceTree = "<group>";
 		};
 		BA1EE30526E24E4100FB4777 /* MyPage */ = {
@@ -390,7 +389,7 @@
 			files = (
 				BA1EE2FC26E24CF200FB4777 /* Home.storyboard in Resources */,
 				BA1EE30226E24D7800FB4777 /* MyPage.storyboard in Resources */,
-				BA1EE2FE26E24D2500FB4777 /* PointChange.storyboard in Resources */,
+				BA1EE2FE26E24D2500FB4777 /* CoinChange.storyboard in Resources */,
 				A6AAE30F26CE8FC600253B80 /* LaunchScreen.storyboard in Resources */,
 				A692C2FF26EB87EE004F454C /* HeartAmountView.xib in Resources */,
 				A6AAE30C26CE8FC600253B80 /* Assets.xcassets in Resources */,
@@ -490,7 +489,7 @@
 				A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */,
 				A6AAE30526CE8FBF00253B80 /* SceneDelegate.swift in Sources */,
 				A692C2C826EA6395004F454C /* CoinAmountView.xib in Sources */,
-				BA1EE2F926E24C7600FB4777 /* PointChangeViewController.swift in Sources */,
+				BA1EE2F926E24C7600FB4777 /* CoinChangeViewController.swift in Sources */,
 				A692C2FD26EB875F004F454C /* HeartAmountView.swift in Sources */,
 				BA1EE2F726E24BE400FB4777 /* HomeViewController.swift in Sources */,
 			);
