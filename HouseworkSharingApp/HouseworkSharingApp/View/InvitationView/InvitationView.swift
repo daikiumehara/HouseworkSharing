@@ -7,7 +7,7 @@
 
 import UIKit
 
-class InvitationView: UIView {
+final class InvitationView: UIView {
     typealias DidTapAction = () -> Void
 
     @IBOutlet private weak var titleLabel: UILabel!
