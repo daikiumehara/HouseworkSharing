@@ -9,28 +9,28 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Point Change View Controller-->
+        <!--Coin Change View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="PointChangeViewController" customModule="HouseworkSharingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="CoinChangeViewController" customModule="HouseworkSharingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eL2-OY-h6E">
-                                <rect key="frame" x="87" y="94" width="240" height="240"/>
+                                <rect key="frame" x="69.5" y="64" width="275" height="275"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6N-Ag-Syl">
-                                        <rect key="frame" x="60" y="60" width="120" height="120"/>
+                                        <rect key="frame" x="27.5" y="27.5" width="220" height="220"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZmA-yG-LRU">
-                                                <rect key="frame" x="39" y="49.5" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="50.5" y="83.5" width="119.5" height="53"/>
+                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="44"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MoG-L6-gz0">
-                                                <rect key="frame" x="90" y="90" width="30" height="30"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="MoG-L6-gz0">
+                                                <rect key="frame" x="170" y="107" width="30" height="29"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="30" id="bUw-xu-80F"/>
                                                     <constraint firstAttribute="height" constant="30" id="mJN-qw-4Vu"/>
@@ -39,18 +39,18 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstItem="MoG-L6-gz0" firstAttribute="bottom" secondItem="ZmA-yG-LRU" secondAttribute="bottom" id="8my-Fi-JR3"/>
                                             <constraint firstItem="ZmA-yG-LRU" firstAttribute="centerX" secondItem="b6N-Ag-Syl" secondAttribute="centerX" id="Alk-s3-7nk"/>
-                                            <constraint firstAttribute="height" constant="120" id="eRX-df-CuU"/>
-                                            <constraint firstAttribute="trailing" secondItem="MoG-L6-gz0" secondAttribute="trailing" id="ku5-Y8-OoO"/>
+                                            <constraint firstItem="MoG-L6-gz0" firstAttribute="leading" secondItem="ZmA-yG-LRU" secondAttribute="trailing" id="GZU-8T-rPI"/>
+                                            <constraint firstAttribute="height" constant="220" id="eRX-df-CuU"/>
                                             <constraint firstAttribute="width" secondItem="b6N-Ag-Syl" secondAttribute="height" multiplier="1:1" id="muI-hD-JN3"/>
                                             <constraint firstItem="ZmA-yG-LRU" firstAttribute="centerY" secondItem="b6N-Ag-Syl" secondAttribute="centerY" id="tXD-o8-Mss"/>
-                                            <constraint firstAttribute="bottom" secondItem="MoG-L6-gz0" secondAttribute="bottom" id="wM8-Vk-buu"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="1IW-ok-9MU"/>
+                                    <constraint firstAttribute="height" constant="275" id="1IW-ok-9MU"/>
                                     <constraint firstItem="b6N-Ag-Syl" firstAttribute="centerX" secondItem="eL2-OY-h6E" secondAttribute="centerX" id="XUb-bW-wOb"/>
                                     <constraint firstItem="b6N-Ag-Syl" firstAttribute="centerY" secondItem="eL2-OY-h6E" secondAttribute="centerY" id="gOv-GH-S3o"/>
                                     <constraint firstAttribute="width" secondItem="eL2-OY-h6E" secondAttribute="height" multiplier="1:1" id="sBu-2l-YjT"/>
@@ -60,12 +60,18 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eL2-OY-h6E" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="R44-QZ-soc"/>
+                            <constraint firstItem="eL2-OY-h6E" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="R44-QZ-soc"/>
                             <constraint firstItem="eL2-OY-h6E" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Yjy-Q1-44v"/>
                             <constraint firstItem="eL2-OY-h6E" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="dOW-90-a7v"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eL2-OY-h6E" secondAttribute="trailing" constant="50" id="yKE-kV-FMY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="coinAmountLabel" destination="ZmA-yG-LRU" id="wJS-Ft-4wZ"/>
+                        <outlet property="coinImageView" destination="MoG-L6-gz0" id="kqL-Ns-QNf"/>
+                        <outlet property="insideView" destination="b6N-Ag-Syl" id="cJp-II-PAq"/>
+                        <outlet property="outsideView" destination="eL2-OY-h6E" id="Yqe-gk-dfg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,6 +79,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bitcoinsign.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
