@@ -8,7 +8,6 @@
 import UIKit
 
 final class CoinChangeViewController: UIViewController {
-
     @IBOutlet private weak var outsideView: UIView! {
         didSet {
             outsideView.layer.cornerRadius = outsideView.bounds.height/2
@@ -41,5 +40,4 @@ final class CoinChangeViewController: UIViewController {
         coinAmountLabel.text = String(99999)
         view.backgroundColor = .yellow
     }
-
 }

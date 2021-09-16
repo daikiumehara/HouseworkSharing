@@ -11,7 +11,6 @@ struct ThemeColor {
     static let mainColor = UIColor(hex: "00CB65")
     static let subColor = UIColor(hex: "FA8072")
 
-
 //    static let backgroundColor = UIColor.systemGray6
 //    static let alertColor = UIColor.red
 //    static let normalColor = UIColor.gray

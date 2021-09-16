@@ -15,7 +15,6 @@ final class TabBarController: UITabBarController {
         setupTabBar()
         setupTab()
     }
-
 }
 
 private extension TabBarController {
@@ -56,4 +55,3 @@ private extension TabBarController {
         self.viewControllers = [firstVC, coinChangeVC, thirdVC]
     }
 }
-
