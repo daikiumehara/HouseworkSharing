@@ -12,9 +12,9 @@
 		A692C2CA26EA63A4004F454C /* CoinAmountView.swift in Resources */ = {isa = PBXBuildFile; fileRef = A692C2C926EA63A4004F454C /* CoinAmountView.swift */; };
 		A692C2FD26EB875F004F454C /* HeartAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692C2FC26EB875F004F454C /* HeartAmountView.swift */; };
 		A692C2FF26EB87EE004F454C /* HeartAmountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A692C2FE26EB87EE004F454C /* HeartAmountView.xib */; };
+		A692C30C26ED08E9004F454C /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692C30B26ED08E8004F454C /* Member.swift */; };
 		A692C33D26EFBE91004F454C /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692C33C26EFBE91004F454C /* InvitationView.swift */; };
 		A692C33F26EFBEA1004F454C /* InvitationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A692C33E26EFBEA1004F454C /* InvitationView.xib */; };
-		A692C30C26ED08E9004F454C /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692C30B26ED08E8004F454C /* Member.swift */; };
 		A6AAE30326CE8FBF00253B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */; };
 		A6AAE30526CE8FBF00253B80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */; };
 		A6AAE30726CE8FBF00253B80 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE30626CE8FBF00253B80 /* TabBarController.swift */; };
@@ -59,9 +59,9 @@
 		A692C2C926EA63A4004F454C /* CoinAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAmountView.swift; sourceTree = "<group>"; };
 		A692C2FC26EB875F004F454C /* HeartAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAmountView.swift; sourceTree = "<group>"; };
 		A692C2FE26EB87EE004F454C /* HeartAmountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeartAmountView.xib; sourceTree = "<group>"; };
+		A692C30B26ED08E8004F454C /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		A692C33C26EFBE91004F454C /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
 		A692C33E26EFBEA1004F454C /* InvitationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvitationView.xib; sourceTree = "<group>"; };
-		A692C30B26ED08E8004F454C /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		A6AAE2FF26CE8FBF00253B80 /* HouseworkSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseworkSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AAE30226CE8FBF00253B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6AAE30426CE8FBF00253B80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -310,6 +310,7 @@
 				A6AAE2FC26CE8FBF00253B80 /* Frameworks */,
 				A6AAE2FD26CE8FBF00253B80 /* Resources */,
 				48E6746901EE1960CCAA96C5 /* [CP] Embed Pods Frameworks */,
+				BACA998C26F35DF4008A45D2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -406,7 +407,7 @@
 			files = (
 				BA1EE2FC26E24CF200FB4777 /* Home.storyboard in Resources */,
 				BA1EE30226E24D7800FB4777 /* MyPage.storyboard in Resources */,
-				BA1EE2FE26E24D2500FB4777 /* PointChange.storyboard in Resources */,
+				BA1EE2FE26E24D2500FB4777 /* CoinChange.storyboard in Resources */,
 				A692C33F26EFBEA1004F454C /* InvitationView.xib in Resources */,
 				BA1EE2FE26E24D2500FB4777 /* CoinChange.storyboard in Resources */,
 				A6AAE30F26CE8FC600253B80 /* LaunchScreen.storyboard in Resources */,
@@ -471,6 +472,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		BACA998C26F35DF4008A45D2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		E199B3856040E78565EA73B6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

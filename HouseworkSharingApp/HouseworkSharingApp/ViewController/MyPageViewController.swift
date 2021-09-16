@@ -8,6 +8,7 @@
 import UIKit
 
 final class MyPageViewController: UIViewController {
+
     static func instantiate() -> MyPageViewController {
         guard let vc = UIStoryboard(name: "MyPage", bundle: nil).instantiateInitialViewController() as? MyPageViewController else {
             fatalError("MyPageViewControllerが見つかりません")
